@@ -78,7 +78,7 @@ if (strpos(json_encode($login), '"status":true')) {
             $prodid = '25693';
             break;
 		    case '15':
-		    $prodid = '806547':
+		    $prodid = '806547';
 		    break;
 		
         
