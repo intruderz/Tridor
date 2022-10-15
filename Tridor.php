@@ -3,7 +3,7 @@
 Provider Tri
 */
 echo @color("white","───────────────────────────────────────────────\n");
-echo @color("green","                 TOOLS DOR TRI                 \n");
+echo @color("green","                 EKO KUOTA THREE                 \n");
 echo @color("white","───────────────────────────────────────────────\n");
 echo @color('purple', "Masukkan Nomor Tri \t\t: ");
 $nomor = trim(fgets(STDIN));
@@ -31,7 +31,7 @@ if (strpos(json_encode($login), '"status":true')) {
     echo @color('nevy', "$poin Poin\n\n");
     cek:
     echo @color('green', "Pilih Paket:\n");
-    echo @color('yellow', "1. Welcome Reward 5GB ==> Rp 1\n2. (NEW) 10GB 30 Hari ==> Rp 15000\n3. (NEW) 15GB 30 Hari ==> Rp 20000\n4. 25GB 25rb (Diskon) ==> Rp 25000\n5. 25GB 24 Jam 20 Hari ==> Rp 25000\n6. (NEW) 25GB 20 Hari ==> Rp 25000\n7. (NEW) 25GB 20 Hari ==> Rp 25000\n8. 25GB 24 Jam 30 Hari ==> Rp 29000\n9. (NEW) 25GB 30 Hari ==> Rp 29000\n10. (NEW) 55GB 30 Hari ==> Rp 50000\n11. (NEW) 65GB 30 Hari ==> Rp 60000\n12. (NEW) 75GB 30 Hari ==> Rp 75000\n13. (NEW) 90GB 30 Hari ==> Rp 90000\n14. (NEW) 100GB 30 Hari ==> Rp 90000\n15. (Diskon) 2.5GB 30 Hari ==> Rp 3000\n");
+    echo @color('red', "1. Welcome Reward 5GB ==> Rp 1\n2. (NEW) 10GB 30 Hari ==> Rp 15000\n3. (NEW) 15GB 30 Hari ==> Rp 20000\n4. 25GB 25rb (Diskon) ==> Rp 25000\n5. 25GB 24 Jam 20 Hari ==> Rp 25000\n6. (NEW) 25GB 20 Hari ==> Rp 25000\n7. (NEW) 25GB 20 Hari ==> Rp 25000\n8. 25GB 24 Jam 30 Hari ==> Rp 29000\n9. (NEW) 25GB 30 Hari ==> Rp 29000\n10. (NEW) 55GB 30 Hari ==> Rp 50000\n11. (NEW) 65GB 30 Hari ==> Rp 60000\n12. (NEW) 75GB 30 Hari ==> Rp 75000\n13. (NEW) 90GB 30 Hari ==> Rp 90000\n14. (NEW) 100GB 30 Hari ==> Rp 90000\n15. (Diskon) 2.5GB ==> Rp 3000\n");
     echo @color('green', "\nMasukkan Pilihan (Sesuai Angka) : ");
     $pilih = trim(fgets(STDIN));
     switch ($pilih) {
