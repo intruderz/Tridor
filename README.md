@@ -1,4 +1,4 @@
-# Tools-DorTri
+# Tri
 
 Cara Menggunakan :
 
